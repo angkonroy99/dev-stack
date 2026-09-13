@@ -1,16 +1,82 @@
-# React + Vite
+# 🧱 Dev Stack Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React website that helps users explore modern development technologies and build their own development stack.
 
-Currently, two official plugins are available:
+Users can browse different technologies, view their details, and add the technologies they want to their personal stack.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. 🧩 Explore Technologies
 
-## Expanding the ESLint configuration
+Browse a collection of modern development technologies with useful information such as:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Technology name
+- Category
+- Description
+- Difficulty level
+- Rating
+- Technology badge
+
+The technology data is loaded from a local JSON file.
+
+### 2. 🧰 Build Your Own Stack
+
+Users can add technologies to the **Your Stack** section.
+
+The project prevents duplicate technologies from being added and allows users to:
+
+- Add a technology
+- Remove a technology
+- Remove all technologies
+- See the total number of selected technologies
+
+### 3. 🔔 Interactive User Feedback
+
+The project uses **React-Toastify** to show notifications when users:
+
+- Add a technology
+- Try to add a duplicate technology
+- Remove a technology
+- Remove all technologies
+
+A loading state is also displayed while the technology JSON data is being loaded.
+
+---
+
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- React-Toastify
+- JSON
+- Vite
+
+---
+
+## 📱 Responsive Design
+
+The website is designed to work across:
+
+- 📱 Mobile devices
+- 📟 Tablet devices
+- 💻 Desktop devices
+
+The technology cards use a responsive layout:
+
+- 1 column on mobile
+- 2 columns on tablet
+- 3 columns on desktop
+
+The **Your Stack** section also changes its position based on the screen size.
+
+---
+
+## ⚙️ How to Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/angkonroy99/dev-stack.git
