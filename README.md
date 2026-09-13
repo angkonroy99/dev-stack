@@ -71,12 +71,51 @@ The technology cards use a responsive layout:
 - 3 columns on desktop
 
 The **Your Stack** section also changes its position based on the screen size.
-
 ---
 
-## ⚙️ How to Run Locally
+## ⚛️ React Questions & Answers
 
-### 1. Clone the repository
+### 1. What is JSX, and why is it used in React?
 
-```bash
-git clone https://github.com/angkonroy99/dev-stack.git
+JSX is a syntax that lets us write HTML-like code inside JavaScript.
+
+It makes React code easier to write and understand because we can create UI elements in a simple way.
+
+### 2. What is the difference between props and state?
+
+**Props** are used to pass data from a parent component to a child component.
+
+**State** is used to store data that can change inside a component.
+
+### 3. What does useState do, and where did you use it in this project?
+
+`useState` is a React Hook used to create and update state.
+
+I used it to store the technologies, selected stack, loading state, and mobile menu state.
+
+### 4. What does useEffect do, and why was it needed to load JSON data?
+
+`useEffect` is used to perform side effects in a React component.
+
+I used it to load the technology data from the JSON file when the component loads.
+
+### 5. Why does every item in .map() need a unique key prop?
+
+React needs a unique `key` to identify each item in a list.
+
+It helps React understand which item has changed, been added, or removed.
+
+### 6. What is conditional rendering? Show one place you used it.
+
+Conditional rendering means showing different UI depending on a condition.
+
+I used it in the **Your Stack** section. When the stack is empty, it shows a message saying that no technologies have been added. When technologies are added, it shows the selected technologies instead.
+
+### 7. How do you pass data from parent to child, and child to parent?
+
+Data can be passed from parent to child using **props**.
+
+In this project, `TechSection` passes technology data and functions to `TechnologyCard`.
+
+For child to parent communication, the parent passes a function to the child. The child calls that function and sends the required data back to the parent.
+---
