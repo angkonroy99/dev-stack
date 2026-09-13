@@ -35,6 +35,10 @@ function TechSection() {
   function removeFromStack(id) {
     const technology = stack.find((item) => item.id === id)
 
+    if (!technology) {
+      return
+    }
+
     const updatedStack = stack.filter((item) => item.id !== id)
 
     setStack(updatedStack)
