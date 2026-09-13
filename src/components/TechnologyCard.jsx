@@ -7,7 +7,6 @@ function TechnologyCard({ technology, onAdd, isAdded }) {
           : 'border-slate-200 bg-white'
       }`}
     >
-
       {/* Icon and Badge */}
       <div className="flex items-start justify-between">
         <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-slate-100">
@@ -56,7 +55,7 @@ function TechnologyCard({ technology, onAdd, isAdded }) {
       <button
         onClick={() => onAdd(technology)}
         disabled={isAdded}
-        className={`mt-5 w-full rounded-lg border py-2.5 text-sm font-semibold transition ${
+        className={`mt-5 flex h-10 w-full items-center justify-center rounded-lg border text-sm font-semibold transition ${
           isAdded
             ? 'cursor-not-allowed border-pink-200 bg-pink-50 text-pink-500'
             : 'border-slate-300 bg-white text-slate-600 hover:bg-slate-50'
@@ -64,7 +63,6 @@ function TechnologyCard({ technology, onAdd, isAdded }) {
       >
         {isAdded ? 'Added to Stack' : 'Add to Stack'}
       </button>
-
     </div>
   )
 }
