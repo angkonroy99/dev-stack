@@ -3,8 +3,8 @@ import banner from '../assets/banner-stack.png'
 function Hero() {
   return (
     <section
-      className="mx-auto flex min-h-[600.6px] w-full max-w-[1216px] flex-col items-center gap-[11.3px] px-5 pb-10 pt-[31.25px] text-center md:min-h-[420px] md:flex-row md:items-center md:justify-between md:gap-8 md:px-0 md:py-12 md:text-left"
       id="home"
+      className="mx-auto flex min-h-[600.6px] w-full max-w-[1216px] flex-col items-center gap-[11.3px] px-5 pb-10 pt-[31.25px] text-center md:h-[420px] md:min-h-0 md:flex-row md:items-center md:justify-between md:gap-8 md:px-0 md:py-0 md:text-left"
     >
       <div className="w-full max-w-[350px] md:w-[696px] md:max-w-none">
         <h1 className="font-inter text-[30px] font-bold leading-[1.25] tracking-[-0.75px] text-slate-900 md:text-[60px] md:leading-none md:tracking-[-1.5px]">
