@@ -6,7 +6,7 @@ function Navbar() {
 
   return (
     <nav className="sticky top-0 z-[1000] border-b border-slate-100 bg-white">
-      <div className="mx-auto flex h-16 w-full max-w-[1280px] items-center px-4 md:h-20 md:px-8">
+      <div className="relative mx-auto flex h-16 w-full max-w-[1280px] items-center px-4 md:h-20 md:px-8">
 
         <button
           className="mr-2 shrink-0 text-2xl leading-none text-slate-700 md:hidden"
@@ -16,7 +16,7 @@ function Navbar() {
           ☰
         </button>
 
-        <div className="shrink-0">
+        <div className="shrink-0 md:static">
           <a href="/">
             <img
               src={logo}
@@ -30,15 +30,19 @@ function Navbar() {
           <a href="#home" className="text-sm text-slate-600">
             Home
           </a>
+
           <a href="#technologies" className="text-sm text-slate-600">
             Technologies
           </a>
+
           <a href="#projects" className="text-sm text-slate-600">
             Projects
           </a>
+
           <a href="#about" className="text-sm text-slate-600">
             About
           </a>
+
           <a href="#contact" className="text-sm text-slate-600">
             Contact
           </a>
@@ -67,15 +71,19 @@ function Navbar() {
             <a href="#home" className="text-sm text-slate-600">
               Home
             </a>
+
             <a href="#technologies" className="text-sm text-slate-600">
               Technologies
             </a>
+
             <a href="#projects" className="text-sm text-slate-600">
               Projects
             </a>
+
             <a href="#about" className="text-sm text-slate-600">
               About
             </a>
+
             <a href="#contact" className="text-sm text-slate-600">
               Contact
             </a>
