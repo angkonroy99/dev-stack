@@ -5,7 +5,7 @@ function Footer() {
     <footer className="w-full bg-white pb-12 pt-8 md:pt-16">
       <div className="mx-auto w-full max-w-[1280px] px-6 md:px-8">
         {/* Main Footer */}
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-4">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-4 md:gap-10">
           {/* Brand */}
           <div>
             <img
@@ -50,24 +50,13 @@ function Footer() {
             </h3>
 
             <div className="mt-4 flex flex-col gap-3">
-              <a
-                href="#technologies"
-                className="text-sm text-slate-500 transition hover:text-slate-900"
-              >
+              <a href="#technologies" className="text-sm text-slate-500 transition hover:text-slate-900">
                 Technologies
               </a>
-
-              <a
-                href="#projects"
-                className="text-sm text-slate-500 transition hover:text-slate-900"
-              >
+              <a href="#projects" className="text-sm text-slate-500 transition hover:text-slate-900">
                 Projects
               </a>
-
-              <a
-                href="#features"
-                className="text-sm text-slate-500 transition hover:text-slate-900"
-              >
+              <a href="#features" className="text-sm text-slate-500 transition hover:text-slate-900">
                 Features
               </a>
             </div>
@@ -80,24 +69,13 @@ function Footer() {
             </h3>
 
             <div className="mt-4 flex flex-col gap-3">
-              <a
-                href="#about"
-                className="text-sm text-slate-500 transition hover:text-slate-900"
-              >
+              <a href="#about" className="text-sm text-slate-500 transition hover:text-slate-900">
                 About
               </a>
-
-              <a
-                href="#contact"
-                className="text-sm text-slate-500 transition hover:text-slate-900"
-              >
+              <a href="#contact" className="text-sm text-slate-500 transition hover:text-slate-900">
                 Contact
               </a>
-
-              <a
-                href="#careers"
-                className="text-sm text-slate-500 transition hover:text-slate-900"
-              >
+              <a href="#careers" className="text-sm text-slate-500 transition hover:text-slate-900">
                 Careers
               </a>
             </div>
@@ -110,24 +88,13 @@ function Footer() {
             </h3>
 
             <div className="mt-4 flex flex-col gap-3">
-              <a
-                href="#privacy"
-                className="text-sm text-slate-500 transition hover:text-slate-900"
-              >
+              <a href="#privacy" className="text-sm text-slate-500 transition hover:text-slate-900">
                 Privacy Policy
               </a>
-
-              <a
-                href="#terms"
-                className="text-sm text-slate-500 transition hover:text-slate-900"
-              >
+              <a href="#terms" className="text-sm text-slate-500 transition hover:text-slate-900">
                 Terms of Service
               </a>
-
-              <a
-                href="#license"
-                className="text-sm text-slate-500 transition hover:text-slate-900"
-              >
+              <a href="#license" className="text-sm text-slate-500 transition hover:text-slate-900">
                 License
               </a>
             </div>
@@ -140,17 +107,10 @@ function Footer() {
             <p>© 2026 Dev Stack. All rights reserved.</p>
 
             <div className="flex items-center gap-4">
-              <a
-                href="#privacy"
-                className="transition hover:text-slate-900"
-              >
+              <a href="#privacy" className="transition hover:text-slate-900">
                 Privacy
               </a>
-
-              <a
-                href="#terms"
-                className="transition hover:text-slate-900"
-              >
+              <a href="#terms" className="transition hover:text-slate-900">
                 Terms
               </a>
             </div>
