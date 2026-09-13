@@ -116,6 +116,4 @@ I used it in the **Your Stack** section. When the stack is empty, it shows a mes
 Data can be passed from parent to child using **props**.
 
 In this project, `TechSection` passes technology data and functions to `TechnologyCard`.
-
 For child to parent communication, the parent passes a function to the child. The child calls that function and sends the required data back to the parent.
----
