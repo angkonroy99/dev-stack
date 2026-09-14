@@ -97,7 +97,7 @@ function TechSection() {
           </div>
 
           {/* Your Stack */}
-          <aside className="h-fit rounded-2xl border border-slate-200 bg-white p-5">
+          <aside className="sticky top-24 h-fit rounded-2xl border border-slate-200 bg-white p-5">
             {/* Stack Heading */}
             <div>
               <h3 className="text-lg font-bold text-slate-900">
@@ -145,7 +145,7 @@ function TechSection() {
                       <button
                         onClick={() => removeFromStack(technology.id)}
                         aria-label={`Remove ${technology.name}`}
-                        className="flex h-7 w-7 items-center justify-center rounded-full text-lg text-slate-400 transition hover:bg-red-50 hover:text-red-500"
+                        className="flex h-7 w-7 cursor-pointer items-center justify-center rounded-full text-lg text-slate-400 transition hover:bg-red-50 hover:text-red-500"
                       >
                         ×
                       </button>
@@ -156,7 +156,7 @@ function TechSection() {
                 {/* Remove All */}
                 <button
                   onClick={removeAll}
-                  className="mt-4 w-full rounded-lg border border-red-200 bg-red-50 py-2.5 text-sm font-semibold text-red-500 transition hover:bg-red-100"
+                  className="mt-4 w-full cursor-pointer rounded-lg border border-red-200 bg-red-50 py-2.5 text-sm font-semibold text-red-500 transition hover:bg-red-100"
                 >
                   Remove All
                 </button>

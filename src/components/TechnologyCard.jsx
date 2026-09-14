@@ -58,7 +58,7 @@ function TechnologyCard({ technology, onAdd, isAdded }) {
         className={`mt-5 flex h-10 w-full items-center justify-center rounded-lg border text-sm font-semibold transition ${
           isAdded
             ? 'cursor-not-allowed border-pink-200 bg-pink-50 text-pink-500'
-            : 'border-slate-300 bg-white text-slate-600 hover:bg-slate-50'
+            : 'cursor-pointer border-slate-900 bg-slate-900 text-white hover:bg-slate-800'
         }`}
       >
         {isAdded ? 'Added to Stack' : 'Add to Stack'}
